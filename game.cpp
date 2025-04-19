@@ -12,7 +12,7 @@ int main() {
     cout << "Welcome to the number gussing game!" << endl;
     cout << "Guess any number between 1 and 100." << endl;
     do {
-        cout << "Guess any number between 1 and 100." << endl;
+        cout << "Enter your guess: ";
         cin >> guess;
         tries ++;
         if (guess > num) {
